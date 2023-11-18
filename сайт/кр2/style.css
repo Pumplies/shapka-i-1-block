@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/background.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
+
+.header {
+  width: 1490px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 5vw;
+}
+
+.left {
+  width: 171px;
+  height: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+}
+
+.name {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 4px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 0 68px;
+  list-style-type: none;
+  color: white;
+  font-size: 24px;
+  font-family: Work Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+li:hover {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #2af598, #00a8ff);
+  transition: 0.3s;
+}
+.market {
+  cursor: pointer;
+}
+.number {
+  position: absolute;
+  transform: translate(1478px, -10px)
+}
+.osnova {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1128px;
+  margin-left: 17vw;
+}
+
+.tital {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+h1 {
+  color: white;
+  font-size: 82px;
+  font-family: Work Sans;
+  font-weight: 700;
+  word-wrap: break-word
+}
+
+.sub_title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 583px;
+  height: 72px;
+  margin-top: -50px;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 403px;
+  height: 30px;
+  transform: translateX(25px);
+  
+}
+.input:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.inputbck {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 463px;
+  height: 71px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 50px;
+  border: 1px white solid;
+  padding: 30px, 24px;
+}
+.search {
+  transform: translateX(-10px);
+}
